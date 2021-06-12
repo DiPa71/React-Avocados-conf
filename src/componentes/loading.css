@@ -1,0 +1,28 @@
+.load-b {
+  border: .5rem solid rgba(0, 0, 0, 0.2);
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 50%;
+  border-left-color: rgb(119, 231, 125);
+  animation: spin .8s ease infinite;
+  float: inline-end;
+  margin: 0 auto;
+  top: 200px;
+  left: calc(50% - 2.5rem);
+  z-index: 3;
+}
+.error{
+  color: red;
+  font-size: 3rem;;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}

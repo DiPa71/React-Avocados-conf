@@ -1,0 +1,33 @@
+.Form-container{
+  width: 100%;
+}
+.form-group{
+  width: 80%;
+}
+
+.form-group label{
+width: 90%;
+font-size: 2rem;
+font-weight: 500rem;
+}
+
+.form-control{
+  font-size: 2.6rem !important;
+  height: 3.5rem;
+  width: 90%;
+}
+
+.btn-primary{
+  margin-top: 2rem;
+  width: 20%;
+  color: var(--negro) !important;
+  background-color: rgb(181, 251, 161) !important;
+  border: 1px solid black !important;
+}
+.btn-danger{
+  margin-top: 2rem;
+  width: 20%;
+  color: var(--loff-white) !important;
+  background-color: rgb(255, 111, 111) !important;
+  border: 1px solid black !important;
+}
